@@ -1,9 +1,7 @@
 package: O2
-version: master
+version: dev
 requires:
   - FairRoot
-  - AliRoot
-  - DDS
 source: https://github.com/AliceO2Group/AliceO2
 tag: dev
 incremental_recipe: |

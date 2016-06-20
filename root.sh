@@ -4,9 +4,6 @@ source: https://github.com/root-mirror/root
 tag: v6-06-04
 requires:
   - AliEn-Runtime:(?!.*ppc64)
-  - GSL
-  - opengl:(?!osx)
-  - Xdevel:(?!osx)
   - FreeType:(?!osx)
 build_requires:
   - CMake

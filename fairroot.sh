@@ -1,10 +1,8 @@
 package: FairRoot
-version: dev
+version: dev-minimal
 source: https://github.com/FairRootGroup/FairRoot
 tag: dev
 requires:
-  - generators
-  - simulation
   - ROOT
   - ZeroMQ
   - nanomsg
