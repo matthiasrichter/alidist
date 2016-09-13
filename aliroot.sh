@@ -2,13 +2,9 @@ package: AliRoot
 version: "%(commit_hash)s%(defaults_upper)s"
 requires:
   - ROOT
-  - fastjet:(?!.*ppc64)
   - GEANT3
-  - GEANT4_VMC
-  - ZeroMQ
 build_requires:
   - CMake
-  - DAQ:slc6.*
 env:
   ALICE_ROOT: "$ALIROOT_ROOT"
 source: http://git.cern.ch/pub/AliRoot
