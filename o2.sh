@@ -69,6 +69,7 @@ cmake $SOURCEDIR -DCMAKE_INSTALL_PREFIX=$INSTALLROOT                            
       -DFairRoot_DIR=$FAIRROOT_ROOT                               \
       -DALICEO2_MODULAR_BUILD=ON                                  \
       -DROOTSYS=$ROOTSYS                                          \
+      ${CMAKE_BUILD_TYPE:+-DCMAKE_BUILD_TYPE=$CMAKE_BUILD_TYPE}   \
       ${PYTHIA6_ROOT:+-DPythia6_LIBRARY_DIR=$PYTHIA6_ROOT/lib}    \
       ${GEANT3_ROOT:+-DGeant3_DIR=$GEANT3_ROOT}                   \
       ${GEANT4_ROOT:+-DGeant4_DIR=$GEANT4_ROOT}                   \
