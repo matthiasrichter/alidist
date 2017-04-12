@@ -3,7 +3,7 @@ version: v1
 env:
   CXXFLAGS: "-fPIC -O2 -std=c++14"
   CFLAGS: "-fPIC -O2"
-  CMAKE_BUILD_TYPE: "RELWITHDEBINFO"
+  CMAKE_BUILD_TYPE: "RELEASE"
 disable:
   - AliEn-Runtime
 overrides:
